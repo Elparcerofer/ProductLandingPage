@@ -48,5 +48,75 @@
 }
 
 #form{
+    /* border: 2px solid red; */
     padding-top: 100px;
+}    
+
+#email, #submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.phrase{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#email{
+    width: 300px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#submit{
+    width: 150px;
+    height: 25px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.container-infor{
+    /* border: 2px solid red; */
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.container-infor__elem{
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 15px;
+}
+
+.container-infor__logos{
+    /* border: 2px solid rgb(196, 167, 8);  */
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+
+.container-infor__logos-img{
+    width: 75px;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container-infor__text{
+    /* border:  2px solid skyblue; */
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+
+.container-infor__text-h2{
+    font-size: 20px;
 }
