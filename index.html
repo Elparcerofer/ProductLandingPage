@@ -6,55 +6,72 @@
         <title>Product Landing Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
+        <link rel="stylesheet" href="style.css">
+    </head> 
     <body>
         <header id="header">
-            <img src="images/tp-link-logo-.png" alt="" id="header-img">
-            <nav id="nav-bar">
-                <label class="nav-link"><a href="">Hola</a></label>
-                <label class="nav-link"><a href="">Hola</a></label>
-                <label class="nav-link"><a href="">Hola</a></label>
-            </nav>
-            <form action="https://www.freecodecamp.org/email-submit" id="form">
-                <p class="phrase">TP-Link is the world's #1 provider of consumer WiFi networking devices</p>
-                <input type="email" id="email" placeholder="Enter your email address" name="email">
-                <input type="submit" id="submit" value="GET STARTED">
-            </form>
-            <video src="https://www.youtube.com/watch?v=y8Yv4pnO7qc&feature=youtu.be" id="video" controls></video>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="container-prices">
-                <div class="container-prices__element">
-                    <h2 class="container-prices__element-h2"> ARCHER C80</h2>
-                    <img src="images/router-tp-link-archer-c80.jpg" alt="TP LINK C80" class="container-prices__element-img">
-                    <p class="container-prices__element-price">$800</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <input type="submit" value="SELECT" class="container-prices__element-btn">
-                </div>
-                <div class="container-prices__element">
-                    <h2 class="container-prices__element-h2"> ARCHER C7</h2>
-                    <img src="images/router-tp-link-archer-c7.jpg" alt="TP LINK C80" class="container-prices__element-img">
-                    <p class="container-prices__element-price">$800</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <input type="submit" value="SELECT" class="container-prices__element-btn">
-                </div>
-                <div class="container-prices__element">
-                    <h2 class="container-prices__element-h2"> ARCHER C20</h2>
-                    <img src="images/tp-link-c20.png" alt="TP LINK C80" class="container-prices__element-img">
-                    <p class="container-prices__element-price">$800</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <p class="container-prices__element-det">Lorem Lorem</p>
-                    <input type="submit" value="SELECT" class="container-prices__element-btn">
-                </div>
+            <div class="container__img">
+                <img src="images/tp-link-logo-.png" alt="" id="header-img">
             </div>
+            <nav id="nav-bar">
+                <a href="#infor" class="nav-link">Características</a>
+                <a href="#video" class="nav-link">Video</a>
+                <a href="#prices" class="nav-link">Precio</a>
+            </nav>
         </header>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <p class="phrase">TP-Link is the world's #1 provider of consumer WiFi networking devices</p>
+            <input type="email" id="email" placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+        <div class="container-infor" id="infor">
+            <div class="container-infor__logos">
+                <img src="images/wifi-logo.jpg" alt="" class="container-infor__logos-img">
+                <img src="images/cpu-logo.png" alt="" class="container-infor__logos-img">
+                <img src="images/cable-logo.png" alt="" class="container-infor__logos-img">
+            </div>
+            <div class="container-infor__text">
+                <p class="container-infor__text-p">Wi-Fi Ultra Rápido para Juegos Extremos Máquina de velocidad AX11000 que entrega 12-streams Wi-Fi con Velocidades que sobrepasan 10 Gbps: 4804 Mbps (5 GHz Gaming) + 4804 Mbps (5 GHz) + 1148 Mbps (2.4 GHz)</p>
+                <p class="container-infor__text-p">Procesador Potente CPU Quad-Core 1.8 GHz y 3 coprocesadores aseguran una performance de la red a la máxima eficiencia.</p>
+                <p class="container-infor__text-p">Fácil e Inteligente Conectese a su router vía Bluetooth y configure en minutos con la app Tether.</p>
+            </div>
+        </div>
+        <video src="https://www.youtube.com/watch?v=y8Yv4pnO7qc&feature=youtu.be" id="video" controls></video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container-prices" id="prices">
+            <div class="container-prices__element">
+                <h2 class="container-prices__element-h2"> ARCHER C80</h2>
+                <img src="images/router-tp-link-archer-c80.jpg" alt="TP LINK C80" class="container-prices__element-img">
+                <p class="container-prices__element-price">$800</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <input type="submit" value="SELECT" class="container-prices__element-btn">
+            </div>
+            <div class="container-prices__element">
+                <h2 class="container-prices__element-h2"> ARCHER C7</h2>
+                <img src="images/router-tp-link-archer-c7.jpg" alt="TP LINK C80" class="container-prices__element-img">
+                <p class="container-prices__element-price">$800</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <input type="submit" value="SELECT" class="container-prices__element-btn">
+            </div>
+            <div class="container-prices__element">
+                <h2 class="container-prices__element-h2"> ARCHER C20</h2>
+                <img src="images/tp-link-c20.png" alt="TP LINK C80" class="container-prices__element-img">
+                <p class="container-prices__element-price">$800</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <p class="container-prices__element-det">Lorem Lorem</p>
+                <input type="submit" value="SELECT" class="container-prices__element-btn">
+            </div>
+        </div>
+        <footer>
+            &copy; 2022 Tp-Link
+        </footer>
     </body>
 </html>
