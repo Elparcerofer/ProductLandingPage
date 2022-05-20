@@ -1,0 +1,108 @@
+@media (max-width: 900px) {
+    #video-container{
+        height: 100%;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .container-prices{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-prices__element{
+        display: block;
+        width: 45%;
+        margin-top: 50px;
+    }
+    
+    .footer{
+        width: 90%;
+        height: 75px;
+        margin: 0px auto; 
+        margin-top: 50px;
+        background-color: darkgray;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 800px) {
+    #header{
+        background-color: rgb(196, 167, 8);
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+    }
+
+    .container__img{
+        margin: 0px auto;
+        width: 244px;
+        height: 100px;
+    }
+
+    #nav-bar{
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .nav-link{
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-decoration: none;
+        color: black;
+    }
+
+    #form{
+        padding-top: 140px;
+    }
+
+    /*--------------------------*/
+    
+    /*--------------------------*/
+}
+
+@media (max-width: 600px) {
+    .phrase{
+        font-size: 15px;
+    }
+
+    .container-infor__text-h2, .container-prices__element-h2{
+        font-size: 15px;
+    }
+    .nav-link{
+        font-size: 15px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .container-infor__logos{
+        display: none;
+    }
+
+    #email{
+        width: 65%;
+    }
+
+    .container-prices{
+        width: 100%;
+    }
+    
+    .container-prices__element{
+        width: 75%;
+    }
+    
+    .footer{
+        width: 95%;
+    }
+}
